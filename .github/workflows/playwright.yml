@@ -16,14 +16,14 @@ on:
           - chrome
           - firefox
           - safari
-        environment:
-          description: 'Environment to run tests againts'
-          required: true
-          default: 'qa'
-          type: choice
-          options:
-                - qa
-                - prod
+      environment:
+        description: 'Environment to run tests againts'
+        required: true
+        default: 'qa'
+        type: choice
+        options:
+          - qa
+          - prod
 
 jobs:
   test:
