@@ -24,7 +24,7 @@ on:
           options:
                 - qa
                 - prod
-                -
+
 jobs:
   test:
     timeout-minutes: 60
