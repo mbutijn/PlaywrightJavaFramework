@@ -1,0 +1,16 @@
+[
+  {
+    "titlePrefix" : "eventTitle",
+    "description": "Bertus description",
+    "category" : "Concert",
+    "city": "Valkenburg",
+    "venue": "Valkenburg Limburg",
+    "dateTime": "2026-08-31T00:00",
+    "price": "450",
+    "totalSeats" :"5000",
+    "fullName" : "Bertus Hegobuur",
+    "phone": "+3169999999999",
+    "email": "hego67@gmail.com"
+  }
+
+]
