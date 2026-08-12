@@ -35,7 +35,8 @@ public class TestBase {
         } else if ("safari".equals(browserName)) {
             browser = playwright.webkit().launch();
         } else {
-            browser = playwright.chromium().launch(new BrowserType.LaunchOptions().setChannel("chrome").setHeadless(false));
+            //browser = playwright.chromium().launch(new BrowserType.LaunchOptions().setChannel("chrome").setHeadless(false));
+            browser = playwright.chromium().launch();
         }
         page = browser.newPage();
         page.setDefaultTimeout(5000);
