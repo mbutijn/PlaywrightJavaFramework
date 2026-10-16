@@ -39,7 +39,7 @@ public class APITest {
         createEventPayload.put("category", "Festival");
         createEventPayload.put("venue", "Limburg");
         createEventPayload.put("city", "Maastricht");
-        createEventPayload.put("eventDate", "2026-09-04T08:41:00.000Z");
+        createEventPayload.put("eventDate", "2026-10-04T08:41:00.000Z");
         createEventPayload.put("price", 300);
         createEventPayload.put("totalSeats", 600);
 

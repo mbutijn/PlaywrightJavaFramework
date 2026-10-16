@@ -46,7 +46,7 @@ public class BasicsTest {
         page.getByLabel("Category").selectOption("Concert");
         page.getByLabel("City").fill("Valkenburg");
         page.getByLabel("Venue").fill("Valkenburg Limburg");
-        page.getByLabel("Event Date & Time").fill("2026-08-31T00:00");
+        page.getByLabel("Event Date & Time").fill("2026-10-31T00:00");
         page.getByLabel("Price ($)").fill("75");
         page.getByLabel("Total Seats").fill("5000");
         page.locator("#add-event-btn").click(new Locator.ClickOptions().setTimeout(12000));
